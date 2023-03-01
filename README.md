@@ -1,7 +1,8 @@
 # Big-Data-Management-with-Pyspark-RDD
 This project is to use Pyspark RDD(resilient distributed dataset) to manage and do analysis on a large scale of Yelp Data, to show my ability to use RDD and my understanding of distributed data  
 
-task1:   
+task1:    
+Data Exploration  
 You will work on test_review.json, which contains the review information from users, and write a  
 program to automatically answer the following questions:  
 A. The total number of reviews  
@@ -30,7 +31,9 @@ boxes in Figure 2) for answering each question.
 
 
 
-Task2: Partition (2 points)  
+Task2:   
+
+Partition (2 points)  
 Since processing large volumes of data requires performance optimizations, properly partitioning the  
 data for processing is imperative.  
 In this task, you will show the number of partitions for the RDD used for Task 1 Question F and the  
