@@ -49,6 +49,8 @@ Python:
 task2.py <review_filepath> <output_filepath> <n_partition>  
 
 
+![image](https://user-images.githubusercontent.com/43727688/222017286-8d7ab495-8c27-42d9-bf2d-799ec1506a8d.png)
+![image](https://user-images.githubusercontent.com/43727688/222017298-ff1517a5-aaa1-4fa2-89fb-9033c974f5e9.png)
 
 
 
