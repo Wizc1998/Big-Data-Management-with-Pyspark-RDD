@@ -4,14 +4,14 @@ This project is to use Pyspark RDD(resilient distributed dataset) to manage and 
 task1:   
 You will work on test_review.json, which contains the review information from users, and write a  
 program to automatically answer the following questions:  
-A. The total number of reviews (0.5 point)  
-B. The number of reviews in 2018 (0.5 point)  
-C. The number of distinct users who wrote reviews (0.5 point)  
+A. The total number of reviews  
+B. The number of reviews in 2018 
+C. The number of distinct users who wrote reviews 
 D. The top 10 users who wrote the largest numbers of reviews and the number of reviews they wrote
-(0.5 point)  
-E. The number of distinct businesses that have been reviewed (0.5 point)  
+  
+E. The number of distinct businesses that have been reviewed 
 F. The top 10 businesses that had the largest numbers of reviews and the number of reviews they had  
-(0.5 point)  
+
 Input format: (we will use the following command to execute your code)  
 Python:  
 /opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G  
@@ -28,6 +28,29 @@ b. You need to write the results in the JSON format file. You must use exactly t
 boxes in Figure 2) for answering each question.  
 
 ![image](https://user-images.githubusercontent.com/43727688/222016738-a56114a1-d85e-45ec-857e-65c9a88643fd.png)
+
+
+
+
+Task2: Partition (2 points)  
+Since processing large volumes of data requires performance optimizations, properly partitioning the  
+data for processing is imperative.  
+In this task, you will show the number of partitions for the RDD used for Task 1 Question F and the  
+number of items per partition.  
+Then you need to use a customized partition function to improve the performance of map and reduce  
+tasks. A time duration (for executing Task 1 Question F) comparison between the default partition and  
+the customized partition (RDD built using the partition function) should also be shown in your results.  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
