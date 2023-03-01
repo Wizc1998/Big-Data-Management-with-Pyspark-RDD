@@ -16,9 +16,7 @@ Input format: (we will use the following command to execute your code)
 Python:  
 /opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G  
 task1.py <review_filepath> <output_filepath>  
-Scala:  
-spark-submit --class task1 --executor-memory 4G --driver-memory 4G hw1.jar <review_filepath>  
-<output_filepath>  
+
 Output format:  
 IMPORTANT: Please strictly follow the output format since your code will be graded automatically.
 a. The output for Questions A/B/C/E will be a number. The output for Questions D/F will be a list, which
@@ -42,6 +40,10 @@ tasks. A time duration (for executing Task 1 Question F) comparison between the 
 the customized partition (RDD built using the partition function) should also be shown in your results.  
 
 
+Input format: (we will use the following command to execute your code)  
+Python:  
+/opt/spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G  
+task2.py <review_filepath> <output_filepath> <n_partition>  
 
 
 
