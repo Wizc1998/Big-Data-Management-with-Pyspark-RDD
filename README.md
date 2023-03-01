@@ -2,11 +2,11 @@
 This project is to use Pyspark RDD(resilient distributed dataset) to manage and do analysis on a large scale of Yelp Data, to show my ability to use RDD and my understanding of distributed data
 
 task1: 
-You will work on test_review.json, which contains the review information from users, and write a
-program to automatically answer the following questions:\n
-A. The total number of reviews (0.5 point)\n
-B. The number of reviews in 2018 (0.5 point)\n
-C. The number of distinct users who wrote reviews (0.5 point)\n
+You will work on test_review.json, which contains the review information from users, and write a  
+program to automatically answer the following questions:  
+A. The total number of reviews (0.5 point)  
+B. The number of reviews in 2018 (0.5 point)  
+C. The number of distinct users who wrote reviews (0.5 point)  
 D. The top 10 users who wrote the largest numbers of reviews and the number of reviews they wrote
 (0.5 point)\n
 E. The number of distinct businesses that have been reviewed (0.5 point)\n
